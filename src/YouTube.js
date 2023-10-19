@@ -17,14 +17,14 @@ function YouTube(props) {
 
             <div className="CardContainer">
                 <div className="PosterContainer">
-                    <img className="PosterImg" src={props.video.Poster}></img>
+                    <img className="PosterImg" src={props.video.Poster} alt=""></img>
 
                 </div>
 
                 <div className="FullDetails">
 
                     <div className="chnnelLogo">
-                        <img className="channellogimg" src={props.video.ChanenlLogo}></img>
+                        <img className="channellogimg" src={props.video.ChanenlLogo} alt=""></img>
                         
 
                     </div>
@@ -57,7 +57,7 @@ function YouTube(props) {
 
 
 
-    )
+    ) 
 
 }
 
