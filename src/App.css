@@ -1,0 +1,108 @@
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+body{
+  background-color: black;
+  margin-left: 100px;
+}
+
+.Main{
+
+  
+  display: inline-block;
+  
+
+ 
+}
+
+.CardContainer{
+
+  
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+
+
+
+}
+
+.PosterContainer{
+  width: 400px;
+  height: 280px;
+  
+  margin-top: 25px;
+  margin-left: 22px;
+  
+}
+.PosterImg{
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.PosterImg:hover{
+  transform: scale(1.1);
+}
+.FullDetails{
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+
+}
+
+.channellogimg{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.InfoPart{
+  width:450px ;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+ 
+  
+}
+.VTitle{
+  color: rgb(248, 246, 246);
+  font-size: 20px;
+  font-weight: 500;
+
+
+  
+}
+.chname{
+  color: rgb(175, 168, 168);
+  font-size: 20px;
+  font-weight: 50;
+
+}
+
+.Vlikes{
+  color: rgb(249, 249, 249);
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.vViews{
+  color: rgb(245, 239, 239);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
